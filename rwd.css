@@ -1,0 +1,205 @@
+@media screen and (max-width : 1200px){
+    .welcome img {
+        width: 80%;
+    }
+    .hero-banner {
+        height: 100vh;
+    }
+    .gallery {
+        width: 100vw;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0;
+        padding: 5rem 5rem;
+    }
+    .parallax-2 .p1 p {
+        font-size: 6rem;
+        font-weight: 700;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 900px){
+    .navi-bar-mb{
+        display: flex;
+    }
+    .navi-bar {
+        display: none;
+    }
+    .hero-banner span {
+        letter-spacing: .2rem;
+    }
+    .gallery {
+        width: 100vw;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0;
+        padding: 2rem 2rem;
+    }
+    .welcome{
+        margin-top: 50px;
+    }
+    .welcome img {
+        width: 90%;
+    }
+    .welcome span {
+        margin-top: 2rem;
+        width: 80%;
+    }
+    .parallax-2 .p1 {
+        text-align: center;
+        margin: 1rem;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width : 414px){
+    .hero-banner p{
+        font-size: 8rem;
+    }
+    .hero-banner {
+        height: 100vh;
+    }
+    .navi-bar-mb .hamburger {
+        right: 0;
+    }
+    .navi-bar-mb h1{
+        font-size: 1.9rem;
+        margin-right: 190px;
+    }
+    .gallery {
+        width: 100vw;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0;
+        padding: 1rem 1rem;
+    }
+    .welcome p {
+        margin-bottom: 2rem;
+        font-size: 4.5rem;
+        font-weight: 700;
+    } 
+    .parallax-2 {
+        height: 110vh;
+        flex-direction: column;
+    }
+    .contact .info-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .info-wrap .info {
+        padding: 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact > span {
+        font-size: .8rem;
+        font-weight: 300;
+        margin: 0 2rem;
+    }
+    .footer .icon-wrap div {
+        width: 3rem;
+        height: 3rem;
+    }
+   
+}
+
+
+
+
+
+
+@media screen and (max-width : 375px){
+    .hero-banner p{
+        font-size: 7rem;
+    }
+    .hero-banner span {
+        letter-spacing: .1rem;
+    }
+    .navi-bar-mb h1{
+        font-size: 1.6rem;
+        margin-right: 180px;
+    }
+    .navi-bar-mb .menu > div > div {
+        margin-right: 60px;
+    } 
+    .navi-bar-mb .menu > div > div > ul{
+        font-size: 2rem;
+    }
+    .footer .icon-wrap div {
+        margin: 0 .2rem;
+    }
+    .footer h1 {
+        font-size: 3em;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width : 320px){
+    .hero-banner p{
+        font-size: 6rem;
+    }
+    .hero-banner span {
+        font-size: .8rem;
+        letter-spacing: .1rem;
+    }
+    .navi-bar-mb h1{
+        font-size: 1.5rem;
+        margin-right: 130px;
+    }
+    .hero-banner a {
+        margin-top: 2rem;
+        padding: .7rem 2rem;
+    }
+    .navi-bar-mb .menu > div > div > ul{
+        font-size: 1.5rem;
+    }
+    .welcome p {
+        margin-bottom: 2rem;
+        font-size: 3.5rem;
+        font-weight: 700;
+    } 
+    .service {
+        margin:5rem 0;
+    }
+    .service .icon img {
+        width: 50%;
+    }
+    .service .icon p {
+        font-size: 1.3rem;
+    }
+    .parallax-2 {
+        height: 140vh;
+    }
+    .contact .info-wrap .info {
+        padding:1rem 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .icon-wrap div {
+        margin: 0rem;
+    }
+    .footer h1 {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+}
